@@ -1,0 +1,25 @@
+let propulsion = document.querySelector(".propulsion")
+let countdown = document.querySelector(".countdown")
+let rocket = document.querySelector(".rocket")
+let interrogation = document.querySelector(".interrogation")
+
+let number=10
+
+propulsion.addEventListener(
+  'click',
+  function(){
+    setInterval(decollage,1000);
+  },false);
+
+  function decollage(){
+    if (number>0) {
+      countdown.innerHTML=(number-=1)
+    }
+    else {
+      countdown.innerHTML =0
+      rocket.style.transform="translateY(-1500px)"
+      rocket.style.transition="all 15s"
+      interrogation.style.transform="translateY(-1500px)"
+      interrogation.style.transition="all 15s"
+    }
+  }

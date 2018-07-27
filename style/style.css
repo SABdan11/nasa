@@ -1,0 +1,184 @@
+
+body{
+  background-color: #56067A;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.header h1{
+  display: flex;
+  font-family: verdana;
+  color: white;
+  font-size: 30px;
+}
+
+.menu ul{
+  display: flex;
+}
+
+.menu li{
+margin-right:  50px;
+margin-top: 10px;
+}
+
+ul{
+list-style-type: none;
+padding: 0;
+}
+
+a{
+  text-decoration: none;
+  font-family: verdana;
+  color: white;
+}
+
+.globale{
+  display: flex;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  }
+
+.texte{
+  display: flex;
+  flex-direction: column;
+  font-family: verdana;
+  color: white;
+  margin: auto;
+  }
+
+.texte p{
+  width: 500px;
+  margin-bottom: 50px;
+}
+
+.texte a{
+  border: 2px  solid #F028D2;
+  border-radius: 20px;
+  background: linear-gradient(#F028D2,#F560DF) ;
+  color: white;
+  padding: 10px;
+  }
+
+  .texte h2{
+    font-family: verdana;
+    font-size: 15px;
+    color : white;
+    margin-bottom: 40px;
+    }
+
+  .bouton {
+      width: 50%;
+      margin: auto;
+    }
+.bouton a{
+  text-align: center;
+}
+.image{
+  display: flex;
+  margin: auto;
+}
+.image img{
+  width: 500px;
+  height: 500px;
+}
+
+.page2_gauche{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.page2_gauche h2{
+  display: flex;
+  margin: auto;
+  color: white;
+  font-family: verdana;
+  margin-bottom: 20px;
+}
+
+.liste_icones {
+  display: flex;
+}
+
+.liste_icones ul{
+  display: flex;
+  margin: auto;
+}
+.liste_icones li{
+  margin-right: 10px;
+}
+.decompte p{
+  color: white;
+  font-size: 100px;
+  font-family: verdana;
+  border: 5px  solid #F028D2;
+}
+
+.page2_droite{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.decompte{
+  margin: auto;
+}
+
+.absolute img{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 250px;
+  left: 200px;
+}
+
+.absolute p{
+
+  text-align: center;
+  font-family: verdana;
+  color: white;
+  font-size: 20px;
+}
+.relative {
+  position: relative;
+  margin: auto;
+}
+
+.propulsion{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  border: 2px  solid #F028D2;
+  border-radius: 20px;
+  background: linear-gradient(#F028D2,#F560DF) ;
+  color: white;
+  padding: 10px;
+}
+
+
+.retour{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  border: 2px  solid #F028D2;
+  border-radius: 20px;
+  background: linear-gradient(#F028D2,#F560DF) ;
+  color: white;
+  padding: 10px;
+}
+
+.countdown{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  border: 2px  solid #F028D2;
+  font-family: verdana;
+  font-size: 50px;
+  color: white;
+  padding: 10px;
+}
